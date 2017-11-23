@@ -1,0 +1,114 @@
+.banner {
+	width: 100%;
+	height: 346px;
+	background: #000;
+	position: relative;
+}
+
+.banner-left {
+	z-index: 2;
+	position: relative;
+	top: 90px;
+	left: 120px;
+}
+
+.banner-left h1 {
+	color: #a58747;
+	margin-bottom: 40px;
+}
+
+.banner-left h6 {
+	color: #fff;
+}
+
+.breadcrumb {
+	margin-bottom: 0px;
+	background: #fff;
+}
+
+.breadcrumb .arrow {
+	margin: 0px 10px;	
+}
+
+.breadcrumb span {
+	font-size: 13px;
+}
+
+.bike {
+	position: absolute;
+	right: -57px;
+	top: -49px;
+}
+
+.section1 {
+	padding: 60px 20px;
+}
+
+@media screen and (max-width: 640px) {
+	.banner {
+		width: calc(100% + 57px);
+		background: url(../images/bike-banner.png) no-repeat;
+		background-size: cover;
+	}
+
+	.banner-left {
+		top: 130px;
+	}
+
+	.banner-left h1 {
+		font-size: 30px;
+	}
+
+	.bike {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.banner {
+		height: 300px;
+	}
+
+	.banner-left {
+		top: 110px;
+	}
+
+	.banner-left h1 {
+		font-size: 25px;
+	}
+
+	.banner-left h6 {
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.banner {
+		width: calc(100% + 47px);
+		height: 270px;
+	}
+
+	.banner-left {
+		top: 90px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.banner {
+		height: 240px;
+	}
+
+	.banner-left h1 {
+		font-size: 20px;
+	}
+
+	.banner-left h6 {
+		font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.banner-left {
+		left: 50px;
+	}
+}
