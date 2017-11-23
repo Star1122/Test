@@ -1,0 +1,40 @@
+.summary-title {
+    padding-left: 60px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    border-bottom: solid 1px #ecf2f3;
+}
+
+.summary-body {
+    list-style-type: none;
+}
+
+.summary-body li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 24px;
+}
+
+.summary-icons {
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.summary-icons img {
+    height: 100%;
+}
+
+
+.summary-body li span {
+    font-size: 17px;
+}
+
+.summary-body .m-top-130 {
+    margin-top: 130px;
+}
+
+.summary-body strong {
+    color: #c5a354;
+}
