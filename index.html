@@ -1,62 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
 
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-toggleable-md navbar-light fixed-top">
             <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler navbar-toggler-right"
+                        type="button" data-toggle="collapse"
+                        data-target="#navbarCollapse" aria-controls="navbarCollapse"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <a class="navbar-brand" href="#"><img src="assets/images/logo.png"></a>
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.png"></a>
 
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bikes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Wheels</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gear</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sell&Trade</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link active" href="#">GiftCards</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link sales" href="#">Sales</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bikes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Wheels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gear</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sell&Trade</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="#">GiftCards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sales" href="#">Sales</a>
+                        </li>
+                    </ul>
 
-                <form class="form-inline mt-2 mt-md-0">
-                    <button class="btn btn-icon"><img src="assets/images/search.png"></button>
-                    <button class="btn btn-icon"><img src="assets/images/person.png"></button>
-                    <button class="btn btn-icon"><img src="assets/images/heart.png"></button>
-                    <button class="btn btn-icon"><img src="assets/images/cart.png"></button>
-                </form>
-            </div>
+                    <form class="form-inline mt-2 mt-md-0">
+                        <button class="btn btn-icon"><img src="assets/images/search.png"></button>
+                        <button class="btn btn-icon"><img src="assets/images/person.png"></button>
+                        <button class="btn btn-icon"><img src="assets/images/heart.png"></button>
+                        <button class="btn btn-icon"><img src="assets/images/cart.png"></button>
+                    </form>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
         <div class="container">
+            <div class="banner-section">
+                <div class="breadcrumb">
+                    <span>Home</span>
+                    <span class="arrow"><img src="assets/images/arrow.png"></span>
+                    <span>Members</span>
+                </div>
+
+                <div class="banner">
+                    <div class="banner-left">
+                        <img class="logo" src="assets/images/logo.png">
+                        <h1>MEMBERS PROGRAM</h1>
+                        <h6>A Next-Level Buying experience w/ MBS.</h6>
+                    </div>
+
+                    <div class="banner-right">
+                        <img class="bike" src="assets/images/bike-banner.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="summary-section">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="summary-title bg-white">What do i get immediately ?</h2>
+
+                        <div class="d-flex summary-body-wrapper">
+                            <ul class="summary-body p-4-6 bg-white">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <span class="summary-icons"><img src="./assets/images/wheel.png"></span>
+                                        </div>
+
+                                        <div class="col-10">
+                                            <span>40% Off hed wheels.</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <span class="summary-icons"><img src="./assets/images/garmin.png"></span>
+                                        </div>
+
+                                        <div class="col-10">
+                                            <span>5% Garmin vector 25 ($299.99).</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <span class="summary-icons"><img src="./assets/images/custom.png"></span>
+                                        </div>
+
+                                        <div class="col-10">
+                                            <span>20% Custom builds.</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <span class="summary-icons"><img src="./assets/images/bike.png"></span>
+                                        </div>
+
+                                        <div class="col-10">
+                                            <span>15% Most demo+Pre-Owned Bikes/Wheels.</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <span class="summary-icons"><img src="./assets/images/lock.png"></span>
+                                        </div>
+
+                                        <div class="col-10">
+                                            <span>More <strong>immediate</strong> exclusives, Too good to be shared publicly.</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="d-flex align-items-center bg-white p-4-6">
+                                <img src="./assets/images/gurantee.png">
+
+                                <p class="summary-gurantee-text">
+                                    We gurantee you'll be impressed with the deals, The service, And us, Or your money back, Just ask.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mt-m-9">
+                        <h2 class="summary-title bg-white">What do i get now and later ?</h2>
+
+                        <ul class="summary-body p-4-6 bg-white">
+                            <li>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <span class="summary-icons"><img src="./assets/images/vip.png"></span>
+                                    </div>
+
+                                    <div class="col-10">
+                                        <span>Exclusive member log-in.</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <span class="summary-icons"><img src="./assets/images/protect.png"></span>
+                                    </div>
+
+                                    <div class="col-10">
+                                        <span>Weekly Factory-Level deals not offered to the public.</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <span class="summary-icons"><img src="./assets/images/ship.png"></span>
+                                    </div>
+
+                                    <div class="col-10">
+                                        <span>Free shipping on everything.</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <span class="summary-icons"><img src="./assets/images/alarm.png"></span>
+                                    </div>
+
+                                    <div class="col-10">
+                                        <span>Early notification on new inventory before release.</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <span class="summary-icons"><img src="./assets/images/bikes.png"></span>
+                                    </div>
+
+                                    <div class="col-10">
+                                        <span>Early notification on new inventory before release.</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <span class="summary-icons"><img src="./assets/images/find.png"></span>
+                                    </div>
+
+                                    <div class="col-10">
+                                        <span>Free "Finders Service"- You want it, We get it.</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <span class="summary-icons"><img src="./assets/images/settings.png"></span>
+                                    </div>
+
+                                    <div class="col-10">
+                                        <span>Customized member portal - The gear you want at prices.</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <span class="summary-icons"><img src="./assets/images/symbol.png"></span>
+                                    </div>
+
+                                    <div class="col-10">
+                                        <span>Welcome kit w/ MBS swag- Only you see.</span>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <span class="summary-icons"><img src="./assets/images/card.png"></span>
+                                    </div>
+
+                                    <div class="col-10">
+                                        <span>MBS Members program card- It's awesome, We promise.</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="print-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 print-left">
+                            <div class="d-flex justify-content-center h-100">
+                                <div class="print-left-title">
+                                    Small print stuff ?
+                                </div>
+
+                                <div class="row print-left-ul">
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li>CC Charged annually</li>
+                                            <li>Cancel anytime</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li>Exclusive apply</li>
+                                            <li>Released with website V3</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 print-right">
+                            <div class="row d-flex">
+                                <div class="col-md-5 print-right-price d-flex align-items-center justify-content-center">
+                                    <span>$</span>99
+                                </div>
+
+                                <div class="col-md-7 print-right-join">
+                                    <div class="print-right-join-title">
+                                        JOIN NOW, SAVE NOW<br> BE EXCLUSIVE
+                                    </div>
+                                    <button type="button" class="print-right-join-button">GET IT NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
